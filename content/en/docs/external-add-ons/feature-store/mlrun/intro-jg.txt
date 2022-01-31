@@ -1,0 +1,57 @@
++++
+title = "MLRun Feature Store" 
+description = "Serverless real-time + offline feature store with scalable and high-performance data transformation layer"
+weight = 30
++++
+
+
+Demo
+title = "Feature Store End-to-End Demo" 
+description = "Demo: How to use the MLRun feature store step-by-step"
+weight = 45
+
++++
+title = "Training & Serving" 
+description = "Use MLRun to train and serve your ML models"
+weight = 45
+
++++
+
++++
+title = "MLRun Feature Store" 
+description = "Serverless real-time + offline feature store with scalable and high-performance data transformation layer"
+weight = 45
+
++++
+
+Feature stores are a central place to build, manage and share features across different teams in the organization. 
+They help you save time and resources on rebuilding the same features, and ensure consistency and better accuracy across the organization.  
+But a feature store for ML is much more than simply a repository for features. It’s a system that:
+* Runs scalable, performant data pipelines to **transform** raw data into features.
+* **Stores** features for everyone across the organization to discover and share, to reduce duplicate work.
+* **Serves** features for both training and inference, to avoid training-serving skew and save significant development time.
+* **Analyzes** and **monitors** features for drift.
+* **Registers** features with all their metadata and statistics, so that everyone can collaborate using a single source of truth.
+* Manages data for security and compliance, a showstopper ingredient for any enterprise, especially for finance, health, security, and other sensitive data applications.
+
+An ML feature store is a single pane of glass where you can manage all your features. Everyone from data scientists, ML engineers, DevOps, to data engineers, can search for features, reuse them in new applications, and see statistics on them (including which features have been used, where they’ve been used, and what impact they’ve had on models).
+
+The feature store is also a **robust data transformation service**, where practitioners can easily do aggregations, joins, filtering, and data manipulation. A simple Python SDK simplifies and abstracts the feature engineering and runs it under the hood, leveraging Spark or Dask in a distributed way, so that feature engineering can be done at scale. When a feature is ready, it can be immediately available for production.
+
+To learn about the feature store, see 
+
+* [Feature Store Overview](https://docs.mlrun.org/en/latest/feature-store/feature-store.html)
+
+* [Training and serving using the feature store](https://docs.mlrun.org/en/latest/feature-store/training-serving.html)
+
+* [Simple demo](https://docs.mlrun.org/en/latest/feature-store/basic-demo.html)
+
+Feature Store End-to-End Demo
+
+This demo showcases:
+
+* [Data ingestion & preparation](https://docs.mlrun.org/en/latest/feature-store/end-to-end-demo/01-ingest-datasources.html) 
+* [Model training & testing](https://docs.mlrun.org/en/latest/feature-store/end-to-end-demo/02-create-training-model.html) 
+* [Real-time data & model pipeline serving using Kubeflow Pipielines](https://docs.mlrun.org/en/latest/feature-store/end-to-end-demo/03-deploy-serving-model.html) 
+* [Automated ML Pipeline](https://docs.mlrun.org/en/latest/feature-store/end-to-end-demo/04-pipeline.html) 
+
